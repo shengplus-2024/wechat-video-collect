@@ -1,0 +1,26 @@
+{
+  "bin": "index.js",
+  "scripts": {
+    "pkg": "pkg . -t node14-win-x64  -o wechat --debug",
+    "read-excel": "node read.js",
+    "start-collect": "node index.js",
+    "count-analysis": "node count.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.7.2",
+    "chalk": "^3.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "compressing": "^1.9.1",
+    "dayjs": "^1.11.11",
+    "json2xls": "^0.1.2",
+    "lodash": "^4.17.21",
+    "log4js": "^6.9.1",
+    "node-notifier": "^10.0.1",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.4",
+    "ora": "5.0.0",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
